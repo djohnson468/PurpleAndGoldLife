@@ -1,0 +1,15 @@
+<html>
+<head>
+
+<Title> The Purple & Gold Life </Title>
+
+<body>
+
+<body bgcolor = #582C83>
+
+<h1><center><b><font color = #eaaa00> The Purple & Gold Life </font></b></center></h1>
+
+
+</body>
+</head>
+</html>
