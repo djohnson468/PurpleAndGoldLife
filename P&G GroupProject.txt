@@ -1,0 +1,14 @@
+<html>
+<head>
+<title>Activities</title>
+</head>
+
+<body bgcolor=#9400d3>
+<h1><center> First Page</center></h1>
+<p><center><img src="Banner1.jpg"></center>
+
+</html>
+
+
+</body>
+
