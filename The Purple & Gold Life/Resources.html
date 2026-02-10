@@ -1,90 +1,98 @@
+<!-- D'Asia Webpage -->
 <html>
 
 <head>
-
-<link href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&family=Bitter:ital,wght@0,100..900;1,100..900&family=Cardo:ital,wght@0,400;0,700;1,400&family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Dancing+Script:wght@400..700&family=Karla:ital,wght@0,200..800;1,200..800&family=Lora:ital,wght@0,400..700;1,400..700&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Tinos:ital,wght@0,400;0,700;1,400;1,700&family=Vollkorn:ital,wght@0,400..900;1,400..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-
 <title> Resources </title>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Tangerine:wght@400;700&display=swap" rel="stylesheet">
+
+<!-- Font For Paragraphs -->
+
+<link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500&display=swap" rel="stylesheet">
 
 <style>
- body { margin: 0; }
 
-.logo {
- position: absolute;
- top: 10px;
- left: 10px;
-}	
+/* Body CSS Style Rules */
 
-.title {
- text-align: center;
- margin-top: 10px;
- font-family: 'Dancing Script', cursive;
- color: #eaaa00;
- font-size: 100px;
+body{
+background-color: #9400d3;
+margin: 15;
+padding: 0;
 }
 
-.fineprint {
- font-size: 15px;
- color: white;
- font-style: italic;
+/* Line Under The Title */
+hr {
+  margin-top: 0; /* remove space above hr */
+  width: 60%;
+  border: 3px solid #eaaa00;
 }
 
-body {
- background-color: #9400d3;
- color: white;
+/* Heading CSS Style Rules */
+
+h1{
+color: #eaaa00;
+margin-bottom: 0rem;
+font-family: "Dancing Script", cursive;
+font-size: 4.0rem;
+font-weight: 700; /* Font Thickness */
+text-align: center;
 }
 
-p {
- font-family: 'Lora'; 
- color: white;
- font-size: 20px;
+/* Heading CSS Style Rules */
+
+h2{
+color: #eaaa00;
+font-family: "Dancing Script", cursive;
+font-size: 3.5rem;
+font-weight: 600;
+text-align: center;
 }
 
-h3 {
- font-size: 50px;
- font-family: 'Playfair Display';
- color: #eaaa00;
+/*-- Heading CSS Style Rules */
+
+h3{
+color: white;
+font-family: "Lora", serif;
+font-size: 1.5rem;
+font-weight: 100; 
 }
 
-h4 {
- font-size: 30px;
- font-family: 'Merriweather';
+/* Paragraph CSS Style Rules */
+
+p{
+color: white;
+font-family: "Lora", serif;
+font-size: 1.5rem;
+text-indent: 25px;
+font-weight: 100; 
 }
 
-ol li {
- font-size: 20px;
- font-family: 'Playfair Display';
-}
-
-ul li {
- font-size: 20px;
- font-family: 'Playfair Display';
-}
-
+/* Link CSS Style Rules */
 a {
 font-family: "Dancing Script", cursive;
 font-size: 2.5rem;
 color: #eaaa00;
 text-decoration: none;
-}
+} 
 
-nav {
-  word-spacing: 5px;
-  text-align: center;
+.logo{
+position: absolute;
+top: 10px;
+left: 10px;
 }
 
 nav a {
-  font-family: 'Merriweather', serif;
-  color: #007bff;
-  text-decoration: none;
-  padding: 0 10px;
+text-decoration:none;
+padding: 0 10px;
+color :#00008b;
+font-size: 2.5rem
+}
+nav {
+word-spacing: 5px;
+font-family: sans-serif;
+text-align: center;
+font-size: 2.5rem
 }
 
-nav a:not(:last-child)::after {
-  content: "||";
-  margin-left: 10px;
-  color: white;
-}
 
 a.goldlink {
  font-family: "Dancing Script", cursive;
@@ -137,9 +145,19 @@ a.goldlink {
 
 <body>
 
-<img src= "images/logo.png" height="95" class="logo" style="border: 3px solid gold;">
+<h1> Resources </h1><br>
+<hr><br><br>
+<img src="images/logo.png" width="200" class = "logo" class= "top-logo" style="border: 3px solid gold;">
 
-<h1 class= "title"> Resources </h1>
+<nav>
+   <a href = "Pag.html"> Homepage</a> <font color = white> ||
+   <a href = "PathwayToSuccess.html"> Pathway to Success</a> ||
+   <a href = "Housing Advice.html"> Housing Advice</a> ||
+   <a href = "Activities.html"> Activities </a> ||
+   <a href = "Academic.html" > Academic Advice </a> ||
+   <a href = "Resources.html"> Resources </a>    
+</nav>
+
 
 <h3> Meal Plans </h3>
 
@@ -304,14 +322,6 @@ If you do not visit the dining hall often, select the meal plan with less meals 
 <p>In many of the on-campus housing there are study rooms available. These rooms can be accessed near your own dorm. Many of these rooms are available 24/7 and have whiteboards, TVs, and seclusion.</p> 
 
 <p>Many of your class schedule locations make for great study areas! Many of the buildings across campus have areas with chairs and tables that make for a great study session before and after class. Some common buildings students go to study are the Agriculture Business Building, the C. L. Wilson Engineering Building, and the new Engineering Building.</p> 
-
-<nav>
-   <a href = "Hou.html"> Housing</a> 
-   <a href = "opp.html"> Opportunity</a> 
-   <a href = "advice.html"> Academic Advice</a>
-   <a href = "activities.html"> Activities </a>
-   <a href = "Resources.html"> Resources </a>     
-</nav>
 
 </body>
 
